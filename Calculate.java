@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 class Calculate 
 { 
-	//this method calculates gcd and lcm of two numbers
+//this method calculates gcd and lcm of two numbers entered by the user.
     public  int gcd()
     {
         int x, y;
@@ -50,7 +50,7 @@ class Calculate
             ++a;
         }
         }
-        //this method calculates simple and compound interest rates.
+        //this method calculates simple and compound interest rates depending on amount and interest rate entered by user.
     public int intrest()
     {
         double p, n, r, si, ci;
@@ -77,7 +77,7 @@ class Calculate
         return 0;
     }
 // this method calculates volume and area of a cylinder 
-    public int volume ()
+    public int volume()
     {
         double PI = 3.14;
         Scanner sc = new Scanner(System.in);
